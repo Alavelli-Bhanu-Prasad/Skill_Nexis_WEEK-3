@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
-
+        
     def deposit(self, amt):
         if amt > 0:
             self.balance += amt
@@ -12,9 +12,6 @@ class BankAccount:
 
     def display_balance(self):
         return self.balance
-
-
-# Example usage
 acc = BankAccount(1000)
 acc.deposit(500)
 acc.withdraw(200)
