@@ -15,15 +15,15 @@ Features:
 
 CLASS OVERVIEEW :
 
-Method	                                  Description
+Method	   
 
-__init__(self, balance=0)   	Initializes the account with an optional starting balance (defaults to 0)
+__init__(self, balance=0) --> Initializes the account with an optional starting balance (defaults to 0)
 
-deposit(amt)	                Adds amt to the balance if amt > 0
+deposit(amt) --> Adds amt to the balance if amt > 0
 
-withdraw(amt)	                Subtracts amt from the balance if 0 < amt <= balance
+withdraw(amt) --> Subtracts amt from the balance if 0 < amt <= balance
 
-display_balance()            	Returns the current balance
+display_balance() --> Returns the current balance
 
 OUTPUT :-
 
@@ -49,17 +49,17 @@ Features:
 
 CLASS OVERVIEEW :
 
-Method                              Description
+Method 
 
-add_book(title)              Creates a new Book and adds it to the library
+add_book(title) --> Creates a new Book and adds it to the library
 
-remove_book(title)           Removes a book by title, if found
+remove_book(title) --> Removes a book by title, if found
 
-issue_book(title)            Marks a book as issued, if it exists and isn't already issued
+issue_book(title) --> Marks a book as issued, if it exists and isn't already issued
 
-return_book(title)           Marks a book as returned, if it exists and was issued
+return_book(title) --> Marks a book as returned, if it exists and was issued
 
-display_books()              Prints every book with its current status
+display_books() --> Prints every book with its current status
 
 OUTPUT :-
 
@@ -81,15 +81,15 @@ Features:
 
 CLASS OVERVIEEW :
 
-Method	                                 Description
+Method	
 
-add(a, b)                    	Returns a + b; returns an error message on TypeError
+add(a, b) --> Returns a + b; returns an error message on TypeError
 
-subtract(a, b)	              Returns a - b; returns an error message on TypeError
+subtract(a, b) --> Returns a - b; returns an error message on TypeError
 
-multiply(a, b)	              Returns a * b; returns an error message on TypeError
+multiply(a, b) --> Returns a * b; returns an error message on TypeError
 
-divide(a, b)                	Returns a / b; handles both ZeroDivisionError and TypeError
+divide(a, b) --> Returns a / b; handles both ZeroDivisionError and TypeError
 
 OUTPUT :-
 
@@ -117,27 +117,27 @@ Class Overview :
 
 Product
 
-Attribute / Method	                         Description
+Attribute / Method
 
-name	                                Name of the product
+name --> Name of the product
 
-price	                                Price per unit
+price --> Price per unit
 
-quantity	                            Number of units purchased
+quantity --> Number of units purchased
 
-get_total()                         	Returns price * quantity
+get_total() --> Returns price * quantity
 
 Bill
 
-Method	                                     Description
+Method
 
-add_product(product)                 	Adds a Product object to the bill
+add_product(product) --> Adds a Product object to the bill
 
-calculate_total()	                    Returns the subtotal of all products
+calculate_total() --> Returns the subtotal of all products
 
-calculate_tax(tax_rate=0.1)          	Returns tax amount (default 10%)
+calculate_tax(tax_rate=0.1) -->Returns tax amount (default 10%)
 
-display_bill()	                      Prints the itemized bill along with subtotal, tax, and grand total
+display_bill() --> Prints the itemized bill along with subtotal, tax, and grand total
 
 OUTPUT :-
 
